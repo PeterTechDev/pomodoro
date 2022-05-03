@@ -1,0 +1,9 @@
+node_modules 
+dist
+.cache
+
+/config.json
+
+package-lock.json
+
+yarn.lock

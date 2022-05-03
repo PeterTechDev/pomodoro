@@ -1,0 +1,36 @@
+.c-button {
+  padding: 12px;
+  background-color: lightblue;
+  transition: all 1s;
+  // height: 40px;
+  width: 70px;
+  border: none;
+  text-align: center;
+  margin: 20px;
+
+  &::before {
+    content: 'START';
+  }
+
+  &--pause {
+    background: rgb(82, 179, 138);
+
+    
+    &::before {
+      content: 'PAUSE';
+    }
+  }
+
+  &--stop {
+    background: red;
+    border-radius: 50%;
+    height: 70px;
+    padding-top: 25px;
+
+    &::before {
+      content: 'STOP';
+    }
+  }
+}
+
+

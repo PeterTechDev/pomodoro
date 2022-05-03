@@ -1,0 +1,22 @@
+.header {
+  background: rgba(99, 24, 24, 0.473);
+  height: 10vh;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+
+  &__logo {
+    max-width: 140px;
+
+    img {
+      // height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+.bode {
+  border: 1px solid green;
+}
